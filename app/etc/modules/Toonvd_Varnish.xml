@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Toonvd_Varnish>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Nexcessnet_Turpentine />
+            </depends>
+        </Toonvd_Varnish>
+    </modules>
+</config>
