@@ -76,13 +76,11 @@
         </events>
     </frontend>
     <varnish>
-
         <tag_prefixes>
             <mage_catalog_model_product>P</mage_catalog_model_product>
             <mage_catalog_model_category>C</mage_catalog_model_category>
             <mage_cms_model_block>Blck</mage_cms_model_block>
         </tag_prefixes>
-
         <objects_to_tag>
             <mage_catalog_block_product_view>
                 <function_to_call>getProduct</function_to_call>
@@ -113,7 +111,6 @@
                 <loop>O</loop>
             </mage_cms_block_widget_block>
         </objects_to_tag>
-
         <objects_to_ban>
             <mage_catalog_model_category>
                 <callback>
@@ -129,6 +126,5 @@
             </mage_catalog_model_product>
             <mage_cms_model_block/>
         </objects_to_ban>
-
     </varnish>
 </config>
